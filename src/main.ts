@@ -1,7 +1,7 @@
 import { temporaryDirectory } from "tempy";
 import { db } from "./db";
 import { productQueue, productWorker } from "./queue";
-import { chromium } from "playwright";
+import { chromium } from "playwright-chromium";
 
 const url = "https://demo.vercel.store/";
 

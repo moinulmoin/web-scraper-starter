@@ -1,12 +1,12 @@
 {
   "type": "module",
   "scripts": {
-    "dev": "tsx watch --env-file=.env src/main.ts"
+    "dev": "tsx --env-file=.env src/main.ts"
   },
   "dependencies": {
     "bullmq": "^5.5.1",
     "lowdb": "^7.0.1",
-    "playwright": "^1.42.1",
+    "playwright-chromium": "^1.43.0",
     "tempy": "^3.1.0"
   },
   "devDependencies": {
